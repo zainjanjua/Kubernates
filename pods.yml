@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name : webserver
+  labels:
+    app : myapp
+   
+spec:
+  containers:
+  - image: registry.k8s.io/echoserver
+    name: webserver
+    ports:
+    - containerPort: 8080
+   
