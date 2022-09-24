@@ -7,8 +7,8 @@ metadata:
    
 spec:
   containers:
-  - image: registry.k8s.io/echoserver
+  - image: nginx
     name: webserver
     ports:
-    - containerPort: 8080
+    - containerPort: 80
    
