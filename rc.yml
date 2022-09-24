@@ -22,10 +22,10 @@ spec:
       name: webpod
       labels:
         app: webapp
-    spec:
-      containers:
-         - name: webpp
-           image: nginx
-           ports:
-             - containerPort: 80
+#     spec:
+#       containers:
+#          - name: webpp
+#            image: nginx
+#            ports:
+#              - containerPort: 80
 
